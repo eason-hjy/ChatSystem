@@ -1,0 +1,8 @@
+运行程序前，请先复制一下代码创建数据库和数据表:
+
+
+
+//-------
+
+create database chat charset utf8;
+CREATE TABLE `chat`.`chat` ( `id` VARCHAR(50) NULL DEFAULT NULL , `pass` VARCHAR(50) NULL DEFAULT NULL ) ENGINE = MyISAM; 
